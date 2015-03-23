@@ -1,4 +1,20 @@
 This project intends to aggregate common or universal Xcode configuration settings, keeping them in hierarchial Xcode configuration files for easy modification and reuse.
+## Installation Options
+
+* git submodule
+* add to Cartfile
+
+## Usage in a new Project
+
+1. Create a `Configuration` group in your project.
+2. Right click on `Configuation group`, and select `Add Files`
+3. Navigate to `xcconfigs` (Carthage/Checkouts/xcconfigs if using Carthage)
+4. Multiselect `Base`, `iOS`, `Mac OS X` as needed
+5. Uncheck `Destination: [ ] Copy items if needed`
+6. Select `Added folders: (*) Create groups`
+7. Uncheck `Add to targets: [ ] TargetName` so the .xcconfig files won't be copied into target
+8. For each `Project->Targets->Build Settings` Select All and Delete
+9. Go to `Project->Info->Configurations` and set Debug and Release and Targets to appropriate .xcconfig files
 
 ## License
 

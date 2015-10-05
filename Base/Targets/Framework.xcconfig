@@ -30,3 +30,6 @@ SKIP_INSTALL = YES
 // that have not been built with this setting enabled.
 APPLICATION_EXTENSION_API_ONLY = YES
 
+ENABLE_BITCODE = YES;
+// See https://github.com/Carthage/Carthage/issues/535 for details:
+BITCODE_GENERATION_MODE = bitcode;

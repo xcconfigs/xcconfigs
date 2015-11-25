@@ -13,3 +13,6 @@ SDKROOT = appletvos
 
 // Supported device families
 TARGETED_DEVICE_FAMILY = 3
+
+// Mandatory for tvOS
+ENABLE_BITCODE = YES

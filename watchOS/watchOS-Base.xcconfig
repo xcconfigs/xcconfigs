@@ -13,3 +13,6 @@ SDKROOT = watchos
 
 // Supported device families
 TARGETED_DEVICE_FAMILY = 4
+
+// Mandatory for watchOS 2
+ENABLE_BITCODE = YES

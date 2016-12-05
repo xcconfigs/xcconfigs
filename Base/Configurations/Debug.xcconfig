@@ -33,7 +33,7 @@ OTHER_CFLAGS = -ftrapv
 // Other flags to pass to the Swift compiler
 //
 // This enables conditional compilation with #if DEBUG
-OTHER_SWIFT_FLAGS = -D DEBUG
+OTHER_SWIFT_FLAGS = -D DEBUG -Xfrontend -debug-time-function-bodies
 
 // Xcode 8 introduced a new flag for conditional compilation
 //

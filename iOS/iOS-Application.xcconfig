@@ -9,3 +9,6 @@
 
 // Apply common settings specific to iOS
 #include "iOS-Base.xcconfig"
+
+// Where to find embedded frameworks
+LD_RUNPATH_SEARCH_PATHS = $(inherited) @executable_path/Frameworks

@@ -13,4 +13,4 @@ COMBINE_HIDPI_IMAGES = YES
 SDKROOT = macosx
 
 // Supported build architectures
-VALID_ARCHS = x86_64
+VALID_ARCHS = arm64 arm64e i386 x86_64
